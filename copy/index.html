@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anil's Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(43, 8, 64);
+            color: whitesmoke;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(32, 32, 96);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        nav ul li a:hover {
+            color: lavender;
+            font-size: 1.2rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            margin: 120px 0;
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 40px 0;
+        }
+
+        .nm_clr {
+            color: gold;
+        }
+
+        #element {
+            color: brown;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 65vh;
+        }
+
+        main hr {
+            border: 0;
+            background: #ad2d8b;
+            height: 1.5px;
+            margin: 40px 88px;
+
+        }
+
+        .secondsection h1 {
+            font-size: 3rem;
+            height: auto;
+            position: relative;
+        }
+
+        .gray {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80%;
+            height: 2px;
+            margin: 112px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 55px;
+            width: 1px;
+            background-color: aliceblue;
+            margin: 0 100px;
+        }
+
+        .top-image {
+            width: 47px;
+            position: relative;
+            top: -58px;
+            left: -23px;
+        }
+
+        .verticaltext {
+            position: relative;
+            width: 150px;
+            font-size: 1.8rem;
+            top: 13px;
+            color: #35bd21;
+        }
+
+        .lan-pg {
+            margin: auto;
+            max-width: 80vw;
+        }
+
+        .proj {
+            align-items: center;
+            width: auto;
+            position: relative;
+            justify-content: space-around;
+        }
+
+        .sh-ui {
+            margin: auto;
+            max-width: 80vw;
+        }
+
+        .sh-ui img {
+            top: 15px;
+            position: relative;
+        }
+
+        .proj h1 {
+            color: #54f3e9d1;
+        }
+
+        footer {
+            background-color: darkblue;
+        }
+
+        .footer{
+            display: flex;
+            padding: 23px 120px;
+            justify-content: space-evenly;
+            width: auto;
+        }
+
+        .footer ul {
+            list-style: none;
+            justify-content: center;
+        }
+        footer .info{
+            height: 0px;
+            text-align:center;
+            color: gray;
+            padding: 12px;
+        }
+        .btn{
+            padding: auto;
+            background-color: rgb(120, 163, 60);
+            border: 2px solid white;
+            font-size: 23px;
+            cursor: pointer;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Anil's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/">Home</a></li>
+                    <li> <a href="/"> About</a></li>
+                    <li> <a href="/">Services</a></li>
+                    <li> <a href="/">Projects</a></li>
+                    <li> <a href="/">Contact M</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi ,I am <span class="nm_clr">Anil</span>
+                <div>A Web Developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="img/Daco_6122373.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="gray">What I have gain so Far</span>
+            <h1>SKILLS</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="img/html.png" alt="Image error" class="top-image">
+                    <div class="verticaltext">HTML</div>
+
+                </div>
+                <div class="vertical">
+                    <img src="img/css.png" alt="Image error" class="top-image">
+                    <div class="verticaltext">CSS</div>
+
+                </div>
+                <div class="vertical">
+                    <img src="img/js.png" alt="Image error" class="top-image">
+                    <div class="verticaltext">JS</div>
+
+                </div>
+                <div class="vertical">
+                    <img src="img/java.png" alt="Image error" class="top-image">
+                    <div class="verticaltext">JAVA</div>
+
+                </div>
+                <div class="vertical">
+                    <img src="img/c.png" alt="Image error" class="top-image">
+                    <div class="verticaltext">C Language</div>
+
+                </div>
+
+            </div>
+        </section>
+        <hr>
+        <section class="proj">
+            <h1 style="font-size: 3rem; color: #e3fff5;">PROJECTS</h1>
+            <div class="lan-pg">
+                <h1>LANDING PAGE</h1>
+                <a href="/"><img src="img/landing page.webp" alt=""></a>
+                <p style="width: 75%; margin: 28px;;">A landing page is a webpage that is displayed when a potential
+                    customer clicks an advertisement or a search engine result link. This webpage typically displays
+                    content that is a relevant extension of the advertisement or link.</p>
+            </div>
+            <div class="sh-ui">
+                <h1 style="margin: 84px;">SHOPING INTERFACE</h1>
+                <img src="img/online-shopping-concept-neumorphic-templates-set-clothes-shoes-store-ui-ux-gui-screens_9209-7240.avif"
+                    alt="">
+            </div>
+            <h1 style="font-size: 2rem; margin: 30%; color: #8b7d11; height: 39px; top: 30px;">UPLOADING SOON......</h1>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Thanks for Visiting</h2>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Projects</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <form>
+                    <h1> ContactForm </h1>
+                    <hr>
+                    <label> Firstname <br>
+                        <input type="text" name="firstname" placeholder="Firstname" size="15" required />
+                    </label> <br>
+                    <label> Middlename:<br>
+                        <input type="text" name="middlename" placeholder="Middlename" size="15" required />
+                    </label> <br>
+                    <label> Lastname:<br>
+                        <input type="text" name="lastname" placeholder="Lastname" size="15" required />
+                    </label> <br>
+                    <label>
+                        Gender :
+                        <br>
+                        <input type="radio" value="Male" name="gender" checked> Male
+                        <input type="radio" value="Female" name="gender"> Female
+                        <input type="radio" value="Other" name="gender"> Other
+                    </label>
+                    <label><br>
+                        Phone :<br>
+                        <input type="text" name="country code" placeholder="Country Code" value="+91" size="2" />
+                        <br> <input type="text" name="phone" placeholder="phone no." size="10" / required>
+                    </label> <br>
+                    <label>
+                        <b>
+                            Email :<br>
+                        </b>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+                    </label><br>
+                    <button type="submit" value="submit">Submit</button> <br>
+                    <button type="reset" value="submit">Reset</button>
+                </form>
+            </div>
+        </div>
+        <div class="info">
+            &#169; CopyRights |Anil Kumar pradhan
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>A Code Analytic<i>', '&amp; Web Designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
